@@ -3,5 +3,5 @@ def greeting(name)
   puts "PLease enter your name so that we can greet you more personally:"
 end
 
-name = gets.strip
+name = gets.chomp
  greeting(name)
