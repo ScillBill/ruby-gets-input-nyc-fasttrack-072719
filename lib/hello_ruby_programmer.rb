@@ -2,4 +2,5 @@ def greeting(name)
   puts "Hi, #{name}!"
 end
 
-name = gets.chomp!
+name = gets.strip
+ greeting(name)
