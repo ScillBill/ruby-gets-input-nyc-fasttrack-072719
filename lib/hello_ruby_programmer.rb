@@ -4,4 +4,4 @@ def greeting(name)
 end
 
 input = gets.chomp
- greeting(name)
+ greeting(input)
