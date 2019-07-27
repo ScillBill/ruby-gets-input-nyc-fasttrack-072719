@@ -1,4 +1,4 @@
-# require 'hello_ruby_programmer'
+require 'hello_ruby_programmer'
 
 describe 'greeting' do
   it 'accepts an argument called `name`' do
